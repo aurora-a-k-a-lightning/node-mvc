@@ -53,4 +53,4 @@ runServer(DB, 8080).catch(function(err) {
     console.error(err);
 });
 
-module.export = {runServer, app, closeServer};
+module.exports = {runServer, app, closeServer};

@@ -11,4 +11,4 @@ const petSchema = mongoose.Schema({
 
 const Pet = mongoose.model('Pet', petSchema);
 
-mongoose.exports = {Pet};
+module.exports = {Pet};
